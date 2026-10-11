@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#24120f" />
+  <title>Chocolate Desire | Waffles, Crepes & Sweet Moments</title>
+  <meta name="description" content="Discover delicious waffles, crepes, pancakes, shakes and chocolate desserts at Chocolate Desire." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">A little chocolate, a lot of happiness <span>♡</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Chocolate Desire home">
+      <span class="brand-mark">CD</span>
+      <span class="brand-text">Chocolate <b>Desire</b><small>WAFFLES · CREPES · MORE</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a>
+      <a class="nav-cta" href="#contact">Visit Us <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> MADE FOR YOUR SWEET CRAVINGS</div>
+        <h1>Life is better<br>with <em>chocolate.</em></h1>
+        <p>Warm waffles, dreamy crepes, indulgent pancakes and shakes made for your happiest moments.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#menu">Explore Our Menu <span>↗</span></a>
+          <a class="button button-outline" href="#story">Discover our story</a>
+        </div>
+        <div class="hero-note"><span class="stars">★★★★★</span><span><b>Sweet moments, every day</b><small>Made to make you smile</small></span></div>
+      </div>
+      <div class="hero-badge"><span>MADE WITH</span><b>LOVE</b><span>& CHOCOLATE</span><i>✦</i></div>
+      <div class="hero-bottom"><span>01 / THE SWEET LIFE</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="story">
+      <div class="intro-image">
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1000&q=85" alt="Chocolate ice cream dessert" />
+        <div class="image-stamp">A spoonful<br>of happiness <span>♡</span></div>
+      </div>
+      <div class="intro-copy">
+        <div class="eyebrow dark"><span></span> WELCOME TO OUR HAPPY PLACE</div>
+        <h2>Every craving<br>has a <em>sweet answer.</em></h2>
+        <p>At Chocolate Desire, ordinary days deserve extraordinary desserts. From chocolate-drizzled waffles to creamy shakes, there’s something delicious waiting for you.</p>
+        <p class="muted">Come with friends, bring your family, or treat yourself. Your next favourite bite is right here.</p>
+        <a class="text-link" href="#menu">Find your favourite <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span></span> THE GOOD STUFF</div><h2>Made to <em>tempt.</em></h2></div>
+          <p>Pick your mood. We’ll bring the sweetness.</p>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab active" data-filter="all">All favourites</button>
+          <button class="tab" data-filter="waffles">Waffles & Crepes</button>
+          <button class="tab" data-filter="pancakes">Pancakes</button>
+          <button class="tab" data-filter="shakes">Shakes & More</button>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card" data-category="waffles">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=800&q=85" alt="Chocolate waffles" /><span class="food-tag">FAN FAVOURITE</span></div>
+            <div class="food-info"><div><h3>Chocolate Waffles</h3><p>Crispy outside, soft inside, rich chocolate drizzle.</p></div><span class="price">₹—</span></div>
+          </article>
+          <article class="menu-card" data-category="pancakes">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=800&q=85" alt="Stack of pancakes" /></div>
+            <div class="food-info"><div><h3>Dreamy Pancakes</h3><p>Fluffy layers with a delicious chocolate finish.</p></div><span class="price">₹—</span></div>
+          </article>
+          <article class="menu-card" data-category="shakes">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=85" alt="Creamy chocolate milkshake" /><span class="food-tag">COOL & CREAMY</span></div>
+            <div class="food-info"><div><h3>Chocolate Shakes</h3><p>Thick, chilled and made for chocolate lovers.</p></div><span class="price">₹—</span></div>
+          </article>
+          <article class="menu-card" data-category="waffles">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=800&q=85" alt="Sweet crepe dessert" /></div>
+            <div class="food-info"><div><h3>Sweet Crepes</h3><p>Delicate crepes filled with a little indulgence.</p></div><span class="price">₹—</span></div>
+          </article>
+          <article class="menu-card" data-category="shakes">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=800&q=85" alt="Ice cream sundae" /></div>
+            <div class="food-info"><div><h3>Ice Cream Sundae</h3><p>Cool, creamy scoops topped with sweet treats.</p></div><span class="price">₹—</span></div>
+          </article>
+          <article class="menu-card" data-category="pancakes">
+            <div class="food-photo"><img src="https://images.unsplash.com/photo-1551024506-0de7f8b4b2d5?auto=format&fit=crop&w=800&q=85" alt="Chocolate dessert bites" /></div>
+            <div class="food-info"><div><h3>Chocolate Treats</h3><p>Little bites for those big dessert cravings.</p></div><span class="price">₹—</span></div>
+          </article>
+        </div>
+        <p class="menu-disclaimer">Demo menu preview · Ask the team for current items and prices.</p>
+      </div>
+    </section>
+
+    <section class="feature-banner">
+      <div class="feature-img"></div>
+      <div class="feature-copy"><div class="eyebrow"><span></span> YOUR SWEET BREAK</div><h2>Good days start<br>with <em>something sweet.</em></h2><p>Make it a waffle date, a shake break, or a dessert run with your favourite people.</p><a class="button button-gold" href="#contact">Plan your visit <span>↗</span></a></div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-heading">
+        <div><div class="eyebrow dark"><span></span> A FEAST FOR THE EYES</div><h2>Sweet looks <em>good on you.</em></h2></div>
+        <p>Take a peek at the kind of happiness we serve.</p>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=85" alt="Breakfast and sweet treats" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1551024506-0de7f8b4b2d5?auto=format&fit=crop&w=800&q=85" alt="Dessert close up" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=85" alt="Ice cream dessert" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85" alt="Chocolate cake" loading="lazy">
+      </div>
+    </section>
+
+    <section class="visit-section" id="contact">
+      <div class="visit-decoration">♡</div>
+      <div class="eyebrow"><span></span> COME SAY HELLO</div>
+      <h2>Your table for<br><em>sweet moments.</em></h2>
+      <p>Got a dessert craving? Reach out to Chocolate Desire and plan your next sweet stop.</p>
+      <div class="visit-actions">
+        <a class="button button-gold" href="https://wa.me/919999323385?text=Hi%20Chocolate%20Desire!%20I%27d%20like%20to%20know%20more%20about%20your%20menu." target="_blank" rel="noopener">Chat on WhatsApp <span>↗</span></a>
+        <a class="button button-outline" href="tel:+919999323385">Call us</a>
+      </div>
+      <div class="contact-number">+91 99993 23385</div>
+      <small class="demo-note">Demo website concept prepared for Chocolate Desire</small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">CD</span><span class="brand-text">Chocolate <b>Desire</b><small>WAFFLES · CREPES · MORE</small></span></a>
+    <p>Made with a little extra love <span>♡</span></p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <div class="footer-bottom">© <span id="year"></span> Chocolate Desire · Demo concept by a website developer</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
